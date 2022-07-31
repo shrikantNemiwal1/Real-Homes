@@ -1,0 +1,66 @@
+.logo {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.result-count {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.input-search {
+  max-width: 20rem;
+  margin: 1rem auto;
+}
+
+.filterGroup {
+  position: sticky;
+  top: 0.5rem;
+  max-width: 60rem;
+  margin: 1rem auto;
+  background: rgb(0, 123, 255, 0.5);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  z-index: 1000;
+}
+
+.filterGroup > * {
+  max-width: 300px;
+}
+
+.propertyGroup .card .card-img-top {
+  height: 215px;
+  position: relative;
+}
+
+.bathtubImg,
+.bedImg,
+.areaImg {
+  width: 24px;
+}
+
+.bathroom-quantity,
+.bed-quantity,
+.area-size {
+  margin-bottom: 0rem;
+  margin-left: 0.5rem;
+}
+
+.icon-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.card-body .address {
+  font-size: 0.8rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.pagination-wrapper {
+  margin: 1rem auto;
+}
